@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta tags para responsividade e codificação -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página -->
+    <title>Página de Fã do Arsenal FC</title>
+    
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="/styles/3-seja-criativo.css">
+    <h3>Uma singela homenagem ao meu irmão Pedro.</h3>
+    </head>
+<body>
+    <!-- Cabeçalho com título -->
+    <header>
+        <h1>Bem-vindo à Página de Fã do Arsenal FC</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg" alt="Logo do Arsenal FC" class="logo">
+    </header>
+
+    <!-- Seção sobre o clube -->
+    <section>
+        <h2>Sobre o Arsenal</h2>
+        <p>O Arsenal Football Club é um dos clubes de futebol mais bem-sucedidos e amados do mundo, com sede em Londres.</p>
+    </section>
+
+    <!-- Botão para mostrar mais informações -->
+    <button id="moreInfoBtn">Clique para Saber Mais</button>
+
+    <!-- Div onde as informações adicionais aparecerão -->
+    <div id="moreInfo" class="hidden">
+        <p>O Arsenal venceu 13 títulos da liga, um recorde de 14 Copas da Inglaterra e muitos outros troféus. Conhecido por sua rica história e torcida apaixonada, o time joga seus jogos em casa no Estádio Emirates.</p>
+    </div>
+
+   
+    <footer>
+        <a href="indice.html">Retornar para o índice.</a>
+    </footer>
+
+    <!-- Script JavaScript incorporado -->
+    <script>
+        // Captura o botão e a div que será exibida
+        const moreInfoBtn = document.getElementById('moreInfoBtn');
+        const moreInfo = document.getElementById('moreInfo');
+
+        // Adiciona um evento de clique ao botão
+        moreInfoBtn.addEventListener('click', () => {
+            // Alterna a classe 'hidden' para mostrar ou esconder a div
+            moreInfo.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

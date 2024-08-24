@@ -1,0 +1,52 @@
+/* Estilo básico para a página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #db0007; /* Cor vermelha tradicional do Arsenal */
+    color: white;
+    padding: 20px;
+}
+
+/* Estilo para a imagem do logo */
+.logo {
+    width: 100px;
+    margin-top: 10px;
+}
+
+/* Seção sobre o clube */
+section {
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Botão de mais informações */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a div oculta que mostrará mais informações */
+.hidden {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    margin-top: 20px;
+}
